@@ -89,7 +89,6 @@ sub_units = {
 			category_army
 		}
 
-		
 		combat_width = 2
 		
 		#Size Definitions
@@ -107,12 +106,20 @@ sub_units = {
 
 		#Offensive Abilities
 		suppression = 2
-	
-		need = {
-			infantry_equipment = 100
-            cas_heli_equipment = 10
+
+		# needed since we give so much bonus to infantry even with no mech equipment
+		essential = {
+			infantry_equipment
 		}
 
+		# this is what moves us and sets speed
+		transport = tra_heli_equipment
+
+		need = {
+			tra_heli_equipment = 20
+			infantry_equipment = 100
+		}
+        
 		forest = {
 			attack = -0.025
 		}

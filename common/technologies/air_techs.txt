@@ -808,7 +808,7 @@ technologies = {
 		}
 	
 		path = {
-			#leads_to_tech = gen3_casheli
+			leads_to_tech = gen3_casheli
 			research_cost_coeff = 1
 		}
 
@@ -828,6 +828,87 @@ technologies = {
 			factor = 1
 		}
 	}
+	gen3_casheli = {
+
+		enable_equipments = {
+			cas_heli_equipment_3
+		}
+	
+		path = {
+			leads_to_tech = gen4_casheli
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1990
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = @1990 }
+		}
+		
+		categories = {
+			cas_helicopter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	gen4_casheli = {
+
+		enable_equipments = {
+			cas_heli_equipment_4
+		}
+	
+		path = {
+			leads_to_tech = gen5_casheli
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2006
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = @2006 }
+		}
+		
+		categories = {
+			cas_helicopter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	gen5_casheli = {
+
+		enable_equipments = {
+			cas_heli_equipment_5
+		}
+	
+		path = {
+			#leads_to_tech = gen6_casheli
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2014
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = @2014 }
+		}
+		
+		categories = {
+			cas_helicopter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	gen1_traheli = {
 
 		enable_equipments = {
@@ -835,7 +916,7 @@ technologies = {
 		}
 	
 		path = {
-			#leads_to_tech = gen2_traheli
+			leads_to_tech = gen2_traheli
 			research_cost_coeff = 1
 		}
 
@@ -854,14 +935,14 @@ technologies = {
 			factor = 1
 		}
 	}
-	gen1_traheli = {
+	gen2_traheli = {
 
 		enable_equipments = {
 			tra_heli_equipment_2
 		}
 	
 		path = {
-			#leads_to_tech = gen2_traheli
+			leads_to_tech = gen3_traheli
 			research_cost_coeff = 1
 		}
 
@@ -870,6 +951,84 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = @1970 }
+		}
+		
+		categories = {
+			tra_helicopter
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	gen3_traheli = {
+
+		enable_equipments = {
+			tra_heli_equipment_3
+		}
+	
+		path = {
+			leads_to_tech = gen4_traheli
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1990
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = @1990 }
+		}
+		
+		categories = {
+			tra_helicopter
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	gen4_traheli = {
+
+		enable_equipments = {
+			tra_heli_equipment_4
+		}
+	
+		path = {
+			leads_to_tech = gen5_traheli
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2000
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = @2000 }
+		}
+		
+		categories = {
+			tra_helicopter
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	gen5_traheli = {
+
+		enable_equipments = {
+			tra_heli_equipment_4
+		}
+	
+		path = {
+			#leads_to_tech = gen5_traheli
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2008
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = @2008 }
 		}
 		
 		categories = {
